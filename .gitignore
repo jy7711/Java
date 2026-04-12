@@ -1,0 +1,48 @@
+# IntelliJ IDEA
+JavaProjects/.idea/
+*.iml
+out/
+target/
+build/
+.gradle/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# 编译产物
+*.class
+*.jar
+*.war
+
+# 数据文件
+*.dat
+*.db
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+*.bak
+
+# Windows
+Thumbs.db
