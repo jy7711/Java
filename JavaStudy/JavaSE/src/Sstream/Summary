@@ -11,3 +11,22 @@ Stream流的中间方法
 
 注意1 ： 中间方法， 返回新的stream流， 原来的stream流只使用一次， 建议使用链式编程
 注意2 ： 修改stream流中的数据， 不会影响原来集合或者数组中的数据
+
+
+1. Stream的作用
+    结合Lambda表达式， 简化集合， 数组的操作
+
+2. Stream的使用步骤
+    · 获取Stream流对象
+    · 使用中间方法处理数据
+    · 使用终结方法处理数据
+
+3. 如何获取Stream流对象
+    · 单列集合 ：Collection中的默认方法stream
+    · 双列集合 ：不能直接获取
+    · 数组 ： Arrays工具类型中的静态方法stream
+    · 一堆零散的数据 ： Stream接口中的静态方法of
+
+4. 常见方法
+    中间方法 ： filter, limit, skip, distinct, concat, map
+    终结方法 ： forEach, count, collect
