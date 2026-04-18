@@ -1,4 +1,4 @@
-import java.util.*;
+package NewStart;
 
 public class HelloWorld {
     static void main() {

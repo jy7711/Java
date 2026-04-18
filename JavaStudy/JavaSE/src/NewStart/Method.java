@@ -1,3 +1,5 @@
+package NewStart;
+
 public class Method {
 
     static void main() {

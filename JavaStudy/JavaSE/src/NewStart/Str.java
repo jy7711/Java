@@ -1,3 +1,5 @@
+package NewStart;
+
 import java.util.*;
 
 public class Str {
