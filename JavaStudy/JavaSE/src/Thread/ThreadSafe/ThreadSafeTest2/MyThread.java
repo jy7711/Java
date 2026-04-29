@@ -7,14 +7,14 @@ public class MyThread extends Thread {
     static int ticket = 0; // 0 ~ 99
 
     //锁对象， 一定要是唯一的
-    static Object obj = new Object();
+    //static Object obj = new Object();
 
     @Override
     public void run() {
 
         while (true) {
             //同步代码块
-            synchronized (obj) {
+            synchronized (MyThread.class) {
 
                 if (ticket < 100) {
                     try {
