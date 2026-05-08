@@ -18,7 +18,7 @@ public class MyThread extends Thread {
 
                 if (ticket < 100) {
                     try {
-                        Thread.sleep(100);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
